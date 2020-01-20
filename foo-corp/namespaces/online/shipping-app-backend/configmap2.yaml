@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: test-configmap2
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-foo
+    configmanagement.gke.io/cluster-selector: selector-hoge
 data:
   hoge: fuga
